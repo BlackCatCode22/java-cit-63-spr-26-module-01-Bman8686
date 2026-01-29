@@ -9,13 +9,13 @@ public class SimpleGreeting {
 	Scanner stdin = new Scanner( System.in ); //Scanner
 	
 	   
-	
-	
+	    	
 		System.out.print("Please enter your name: ");
 	
-		String name = stdin.nextLine();
-	
-	System.out.println ("Hello, + name Nice to meet you.");
+		String name = stdin.nextLine();	
+		
+		       				
+	System.out.println ("Hello, " + name  +  " Nice to meet you.");
 	
 	
 	
